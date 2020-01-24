@@ -14,12 +14,21 @@ To provide a Java solution, edit Solution.java To provide a Python solution, edi
 Test cases
 Your code should pass the following test cases. Note that it may also be run against hidden test cases not shown here.
 
--- Java cases -- Input: Solution.solution(0) Output: 23571
+-- Java cases -- 
 
-Input: Solution.solution(3) Output: 71113
+Input: Solution.solution(0) 
+Output: 23571
 
--- Python cases -- Input: solution.solution(0) Output: 23571
+Input: Solution.solution(3) 
+Output: 71113
 
-Input: solution.solution(3) Output: 71113
+-- Python cases --
 
-Use verify [file] to test your solution and see how it does. When you are finished editing your code, use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
+Input: solution.solution(0) 
+Output: 23571
+
+Input: solution.solution(3) 
+Output: 71113
+
+Use verify [file] to test your solution and see how it does. When you are finished editing your code, 
+use submit [file] to submit your answer. If your solution passes the test cases, it will be removed from your home folder.
