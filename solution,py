@@ -1,0 +1,28 @@
+def isPrime(n):
+    p=True
+    for i in range(2, n):
+        if (n % i) == 0:
+            p=False
+            break
+    return p
+def nextPrime(n):
+    prime = n
+    while(True):
+        prime = prime + 1
+        if(isPrime(prime) == True):
+            break
+    return prime
+def solution(i):
+    a=[2]
+    if i==0 or i==1 :
+        g=5
+    else:
+        g=i+3
+    for l in range(g):
+        n = a[-1]
+        n=nextPrime(n)
+        a.append(n)
+    b = "".join(map(str, a))
+    return b[i:i+5]
+
+prin(solution(3))
